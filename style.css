@@ -5,12 +5,12 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #E9D5DA;
+    background-color: #A7C4BC;
 }
 
 .toolbox-cont{
     height: 5rem;
-    background-color: #1A3C40;
+    background-color: #2F5D62;
     display: flex;
     align-items: center;
     position: sticky;
@@ -18,7 +18,7 @@ body{
 
 .toolbox-priority-cont{
     height: 3rem;
-    background-color: #EDE6DB;
+    background-color: white;
     width: 18rem;
     margin-left: 5rem;
     display: flex;
@@ -27,7 +27,7 @@ body{
 }
 
 .action-btn-cont{
-    background-color: #EDE6DB;
+    background-color: white;
     height: 3rem;
     width: 10rem;
     margin-left: 5rem;
@@ -67,7 +67,7 @@ body{
     position: absolute;
     top: 25vh;
     left: 25vw;
-    background-color: #417D7A;
+    background-color: lightgray;
     height: 50vh;
     width: 50vw;
     display: none;
@@ -77,7 +77,7 @@ body{
     outline:none;
     resize: none;
     border: none;
-    background-color:#EDE6DB;
+    background-color: white;
     height: 100%;
     width: 75%;
     font-size: 2rem;
@@ -98,7 +98,7 @@ body{
     width: 5rem;
 }
 .active{
-    border: 5px solid red;
+    border: 5px solid burlywood;
 }
 .main-cont{
     margin-top: 2rem;
@@ -109,7 +109,7 @@ body{
 }
 
 .ticket-cont{
-    background-color: #069A8E;
+    background-color: white;
     height: 10rem;
     width: 18rem;
 }
