@@ -32,7 +32,6 @@ for (let i = 0; i < toolBoxColors.length; i++) {
                 filteredArr.push(ticketArr[i]);
             }
         }
-        // console.log(filteredArr);
         let allTickets = document.querySelectorAll(".ticket-cont");
         for (let j = 0; j < allTickets.length; j++) {
             allTickets[j].remove();
@@ -61,7 +60,7 @@ for (let i = 0; i < toolBoxColors.length; i++) {
     })
 }
 
-// step 1111111111111111111111111111111111111111111111
+
 addBtn.addEventListener("click",function(){
     if(addModal){
         //show modal
@@ -83,7 +82,7 @@ for(let i = 0; i<allPriorityColor.length; i++){
         modalPriorityColor = priorityDivOneColor.classList[0];
     })
 }
-// step 2222222222222222222222222222222222222222222222222222
+
 modalCont.addEventListener("keydown",function(e){
     let key = e.key;
     if(key == 'Enter'){
@@ -103,7 +102,7 @@ removeBtn.addEventListener("click",function(){
     removeFlag = !removeFlag;
 })
 
-// Step 333333333333333333333333333333333333333333333333333 
+
 function createTicket(ticketColor,task,ticketId){
 
     let id;
